@@ -34,7 +34,7 @@ header .boolando-header{
 .logo{
     /* vertical-align: middle; */
     height: 20px;
-    padding-right: 50px;
+    padding-right: 90px;
 }
 
 .boolando-header:first-child{
@@ -58,7 +58,7 @@ header .boolando-header{
 }
 
 .row > * {
-    padding: 0 10px;
+    padding: 0 8px;
 }
 
 .row {
@@ -82,8 +82,9 @@ header .boolando-header{
 }
 .card .discount {
     position: absolute;
+    color: white;
     background-color: red;
-    bottom: 30px;
+    bottom: 100px;
     left: 0;
     padding: 4px 8px;
 }
@@ -92,8 +93,8 @@ header .boolando-header{
     position: absolute;
     color: white;
     background-color: #008000;
-    bottom: 30px;
-    left: 55px;
+    bottom: 100px;
+    left: 53px;
     padding: 4px 8px;
 }
 
