@@ -7,6 +7,9 @@
     box-sizing: border-box;
 }
 
+
+/* HEADER */
+
 header {
     padding: 5px 0;
     background-color: #ff6900;
@@ -14,14 +17,14 @@ header {
 
 }
 
-header .container{
+header .boolando-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 40px;
 }
 
-.container{
+.boolando-header{
     max-width: 1200px;
     margin: 0 auto;
     vertical-align: middle;
@@ -34,7 +37,85 @@ header .container{
     padding-right: 50px;
 }
 
-.container:first-child{
+.boolando-header:first-child{
     color: white;
 }
 
+
+/* MAIN */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    margin-top: 40px;
+}
+.container-fluid {
+    width: 100%;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.row > * {
+    padding: 0 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.col-33 {
+    width: calc(100% / 3);
+}
+
+/*-------------------
+    CARD
+-------------------*/
+.card {
+    position: relative;
+}
+.card img {
+    width: 100%;
+}
+.card .discount {
+    position: absolute;
+    background-color: red;
+    bottom: 30px;
+    left: 0;
+    padding: 4px 8px;
+}
+
+.card .marker {
+    position: absolute;
+    color: white;
+    background-color: #008000;
+    bottom: 30px;
+    left: 55px;
+    padding: 4px 8px;
+}
+
+.card .like {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+
+    
+}
+
+.card:hover .like {
+    display: block;
+}
+
+.card .card-image-hover {
+    display: none;
+}
+
+.card:hover .card-image-hover {
+    display: block;
+}
+.card:hover .card-image-default {
+    display: none;
+}
