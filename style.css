@@ -1,0 +1,40 @@
+/*-------------------
+    RESET
+-------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 5px 0;
+    background-color: #ff6900;
+    
+
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    vertical-align: middle;
+    
+}
+
+.logo{
+    /* vertical-align: middle; */
+    height: 20px;
+    padding-right: 50px;
+}
+
+.container:first-child{
+    color: white;
+}
+
